@@ -1,0 +1,17 @@
+{
+  "name": "name",
+  "version": "0.1.1",
+  "description": "Description",
+  "private": true,
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start:single": "node src/index.js",
+    "start": "pm2 start ecosystem.config.yml"
+  },
+  "dependencies": {
+    "cookie-session": "^1.4.0",
+    "express": "^4.17.1",
+    "pm2": "^5.1.0"
+  }
+}

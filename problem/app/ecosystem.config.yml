@@ -1,0 +1,10 @@
+apps:
+  name: "app"
+  script: "src/index.js"
+  watch: "src"
+  watch_delay: 5000
+  instances: 1
+  filter_env: ["FLAG"]
+  out_file: ./out.log
+  error_file: ./error.log
+  
